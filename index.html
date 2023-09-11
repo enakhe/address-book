@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Address Book</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center my-5">
+            <div class="address-form border border-2 p-5 rounded">
+                <form id="contactForm">
+                    <div class="form-group my-1">
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName" class="form-control shadow-none">
+                    </div>
+                    
+                    <div class="form-group my-1">
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName" class="form-control shadow-none">
+                    </div>
+                    
+                    <div class="form-group my-1">
+                        <label for="phoneNumber">Phone number</label>
+                        <input type="text" id="phoneNumber" class="form-control shadow-none">
+                    </div>
+                    
+                    <button class="btn btn-success w-100 btn-lg shadow-none">Save</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="contact">
+            <ul id="displayContact">
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
